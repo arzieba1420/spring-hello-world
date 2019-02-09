@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import pl.edu.wszib.springhelloworld.model.*;
 
-@Configuration  //Important annotation!!!!
+@Configuration  //Important annotation!!!!!
 public class MyConfig {
 
    @Bean
