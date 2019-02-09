@@ -1,9 +1,18 @@
 package pl.edu.wszib.springhelloworld.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Zawieszenie {
 
-    private Silnik silnik = new Silnik();
-    private SkrzyniaBiegow skrzyniaBiegow = new SkrzyniaBiegow();
-    private UkladSterowania ukladSterowania = new UkladSterowania();
+    @Autowired
+    private Silnik silnik ;
+
+    @Autowired
+    private SkrzyniaBiegow skrzyniaBiegow ;
+
+    @Autowired
+    private UkladSterowania ukladSterowania;
 
 }

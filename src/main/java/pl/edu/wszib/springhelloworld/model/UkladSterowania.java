@@ -1,7 +1,12 @@
 package pl.edu.wszib.springhelloworld.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class UkladSterowania {
 
-    private Kierownica kierownica = new Kierownica();
+    @Autowired
+    private Kierownica kierownica;
 
 }
