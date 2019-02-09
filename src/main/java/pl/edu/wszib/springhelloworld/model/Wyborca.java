@@ -1,5 +1,7 @@
 package pl.edu.wszib.springhelloworld.model;
 
+import org.springframework.context.annotation.Bean;
+
 import java.util.Random;
 
 public class Wyborca {
@@ -15,5 +17,8 @@ public class Wyborca {
         kartaDoGlosowania.zaznacz(random);
         urna.wrzuc(kartaDoGlosowania);
     }
+
+
+
 
 }
